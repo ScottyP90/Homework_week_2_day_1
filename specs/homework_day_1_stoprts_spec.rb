@@ -41,9 +41,8 @@ class TeamTest < Minitest::Test
     assert_equal(true, player_found)
   end
 
-  #def test_point_score
-  #  @team1.points("Win")
-  #  points_scored = @team1.points
-  #  assert_equal(1, points_scored)
-  #end
+  def test_the_score
+    score = @team1.the_score("Win")
+    assert_equal(1, score)
+  end
 end

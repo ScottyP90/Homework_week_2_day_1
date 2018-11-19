@@ -57,11 +57,11 @@ class Team
     end
   end
 
-  #def add_to_score(score)
-  #  if @points(score)
-  #    @points += 1
-  #  end
-  #end
+  def the_score(score)
+    if (score == "Win")
+      @points += 1
+    end
+  end
 
 
 
